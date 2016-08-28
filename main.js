@@ -5,21 +5,21 @@ document.addEventListener("DOMContentLoaded", onLoad);
 var config = {
     title: {
         show: true,
-        margin: 12,
-        color: "#dddddd"
+        margin: 14,
+        color: "#666666"
     },
     lines: {
-        width: 2,
-        color: "#dddddd"
+        width: 1.8,
+        color: "#666666"
     },
     rows: {
         length: 12,
-        margin: 12
+        margin: 13
     },
     bars: {
         type: "none",
         length: 4,
-        color: "#dddddd",
+        color: "#666666",
         firstWidth: 0
     },
     pages: {

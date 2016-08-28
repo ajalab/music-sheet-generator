@@ -33,30 +33,30 @@
       <section>
         <h1>タイトル</h1>
         <p><label>タイトル線を表示する<input type="checkbox" id="title-show" checked></label></p>
-        <p><label>段との間隔 (mm) <input type="number" value="12" min="0" id="title-margin"></label></p>
-        <p><label>色 <input type="color" value="#dddddd" id="title-color"></label></p>
+        <p><label>段との間隔 (mm) <input type="number" value="14" min="0" id="title-margin"></label></p>
+        <p><label>色 <input type="color" value="#333333" id="title-color"></label></p>
       </section>
       <section>
         <h1>五線</h1>
-        <p><label>幅 (mm) <input type="number" value="2" min="1" step="0.1" id="lines-width"></label></p>
-        <p><label>色 <input type="color" value="#dddddd" id="lines-color"></label></p>
+        <p><label>幅 (mm) <input type="number" value="1.8" min="1" step="0.1" id="lines-width"></label></p>
+        <p><label>色 <input type="color" value="#333333" id="lines-color"></label></p>
       </section>
       <section>
         <h1>段</h1>
-        <p><label>段数 <input type="number" value="10" min="1" max="20" width="3" id="rows-length"></label></p>
-        <p><label>段の間隔 (mm) <input type="number" value="6" min="0" id="rows-margin"> </label></p>
+        <p><label>段数 <input type="number" value="12" min="1" max="20" width="3" id="rows-length"></label></p>
+        <p><label>段の間隔 (mm) <input type="number" value="13" min="0" id="rows-margin"> </label></p>
       </section>
       <section>
         <h1>小節</h1>
         <p>
           <label>種類 <select id="bars-type">
-            <option value="none">なし</option>
-            <option value="bar" selected>縦線</option>
+            <option value="none" selected>なし</option>
+            <option value="bar">縦線</option>
             <option value="hint">ヒント</option>
           </select></label>
         </p>
         <p><label>小節数 <input type="number" value="4" min="1" max="20" width="3" id="bars-length"></label></p>
-        <p><label>色 <input type="color" value="#dddddd" id="bars-color"></label></label></p>
+        <p><label>色 <input type="color" value="#666666" id="bars-color"></label></label></p>
         <p><label>先頭の小節を広くする (%) <input type="number" value="0" min="0" step="0.1" id="bars-firstWidth"> </label></p>
       </section>
       <section>
