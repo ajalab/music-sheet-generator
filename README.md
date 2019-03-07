@@ -1,6 +1,6 @@
 # music-sheet-generator
 
-[https://ajalabox.github.io/music-sheet-generator/](https://ajalabox.github.io/music-sheet-generator/)
+[https://ajalab.github.io/music-sheet-generator/](https://ajalab.github.io/music-sheet-generator/)
 
 Webで五線譜を印刷
 
